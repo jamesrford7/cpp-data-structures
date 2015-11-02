@@ -9,11 +9,10 @@
 #ifndef linked_list_h
 #define linked_list_h
 
-struct node {
-    
+struct node
+{
     int value;
     node* next;
-    
 };
 
 void addNodeToFront(node*& head, int value);
