@@ -1,3 +1,3 @@
-# cpp-randomness
+# cpp-data-structures
 
-XCode cmd line project with a completely aimless bunch of cpp files, just keeping the cpp vibe going
+XCode cmd line project to keep my cpp vibe going
