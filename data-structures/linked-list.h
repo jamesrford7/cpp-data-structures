@@ -1,11 +1,3 @@
-//
-//  linked-list.h
-//  data-structures
-//
-//  Created by James Ford on 02/11/2015.
-//  Copyright © 2015 James Ford. All rights reserved.
-//
-
 #ifndef linked_list_h
 #define linked_list_h
 
@@ -15,10 +7,18 @@ struct node
     node* next;
 };
 
-void addNodeToFront(node*& head, int value);
+class linkedList
+{
 
-void printNodes(node* head);
-
-void deleteNode(node* head, int value);
+private:
+    node* head;
+    int count;
+    
+public:
+    linkedList();
+    void addNodeToFront(int value);
+    void deleteNode(int value);
+    void printNodes();
+};
 
 #endif /* linked_list_h */

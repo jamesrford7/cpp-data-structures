@@ -1,27 +1,23 @@
-//
-//  main.cpp
-//  data-structures
-//
-//  Created by James Ford on 02/11/2015.
-//  Copyright © 2015 James Ford. All rights reserved.
-//
-
 #include <iostream>
 #include "linked-list.h"
 
 int main(int argc, const char * argv[]) {
     
-    node* head = NULL;
+    linkedList* list = new linkedList();
     
-    addNodeToFront(head, 1);
-    addNodeToFront(head, 2);
-    addNodeToFront(head, 3);
-    addNodeToFront(head, 4);
-    addNodeToFront(head, 5);
+    list->addNodeToFront(1);
+    list->addNodeToFront(2);
+    list->addNodeToFront(3);
+    list->addNodeToFront(4);
+    list->addNodeToFront(5);
+    list->addNodeToFront(6);
+    list->addNodeToFront(7);
     
-    deleteNode(head, 3);
+    list->deleteNode(3);
+    list->deleteNode(4);
+    list->deleteNode(6);
     
-    printNodes(head);
+    list->printNodes();
     
     return 0;
     
