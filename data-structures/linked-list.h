@@ -17,6 +17,7 @@ private:
 public:
     linkedList();
     void addNodeToFront(int value);
+    void addNodeToBack(int value);
     void deleteNode(int value);
     void printNodes();
 };

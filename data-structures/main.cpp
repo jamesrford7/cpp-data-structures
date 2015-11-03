@@ -6,16 +6,19 @@ int main(int argc, const char * argv[]) {
     linkedList* list = new linkedList();
     
     list->addNodeToFront(1);
-    list->addNodeToFront(2);
-    list->addNodeToFront(3);
-    list->addNodeToFront(4);
-    list->addNodeToFront(5);
-    list->addNodeToFront(6);
-    list->addNodeToFront(7);
+    list->addNodeToFront(55);
+    list->addNodeToFront(23);
+    list->addNodeToFront(13);
+    list->addNodeToFront(12);
+    list->addNodeToFront(67);
+    list->addNodeToFront(44);
     
     list->deleteNode(3);
-    list->deleteNode(4);
-    list->deleteNode(6);
+    
+    list->addNodeToBack(2);
+    list->addNodeToFront(34);
+    list->addNodeToFront(21);
+    list->addNodeToFront(2);
     
     list->printNodes();
     
