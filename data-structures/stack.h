@@ -1,11 +1,3 @@
-//
-//  stack.h
-//  data-structures
-//
-//  Created by James Ford on 03/11/2015.
-//  Copyright © 2015 James Ford. All rights reserved.
-//
-
 #ifndef stack_h
 #define stack_h
 
