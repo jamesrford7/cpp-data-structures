@@ -1,11 +1,7 @@
 #ifndef linked_list_h
 #define linked_list_h
 
-struct node
-{
-    int value;
-    node* next;
-};
+#include "node.h"
 
 class linkedList
 {

@@ -1,9 +1,10 @@
 #include <iostream>
 #include "linked-list.h"
+#include "stack.h"
 
 int main(int argc, const char * argv[]) {
     
-    linkedList* list = new linkedList();
+    /*linkedList* list = new linkedList();
     
     list->addNodeToFront(1);
     list->addNodeToFront(55);
@@ -20,7 +21,18 @@ int main(int argc, const char * argv[]) {
     list->addNodeToFront(21);
     list->addNodeToFront(2);
     
-    list->printNodes();
+    list->printNodes();*/
+    
+    stack* s = new stack();
+    
+    s->push(2);
+    s->push(5);
+    s->push(66);
+    s->pop();
+    s->push(45);
+    s->push(23);
+    
+    s->printStack();
     
     return 0;
     

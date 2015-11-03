@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1868AD231BE93E33003A09D4 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1868AD221BE93E33003A09D4 /* stack.cpp */; };
 		18A202FC1BE803E5006B9E1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A202FB1BE803E5006B9E1B /* main.cpp */; };
 		18A203041BE81293006B9E1B /* linked-list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A203031BE81293006B9E1B /* linked-list.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1868AD201BE93CEF003A09D4 /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		1868AD211BE93D97003A09D4 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		1868AD221BE93E33003A09D4 /* stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
 		18A202F81BE803E5006B9E1B /* data-structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "data-structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A202FB1BE803E5006B9E1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		18A203021BE81247006B9E1B /* linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linked-list.h"; sourceTree = "<group>"; };
@@ -63,6 +67,9 @@
 				18A202FB1BE803E5006B9E1B /* main.cpp */,
 				18A203021BE81247006B9E1B /* linked-list.h */,
 				18A203031BE81293006B9E1B /* linked-list.cpp */,
+				1868AD201BE93CEF003A09D4 /* node.h */,
+				1868AD211BE93D97003A09D4 /* stack.h */,
+				1868AD221BE93E33003A09D4 /* stack.cpp */,
 			);
 			path = "data-structures";
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A203041BE81293006B9E1B /* linked-list.cpp in Sources */,
+				1868AD231BE93E33003A09D4 /* stack.cpp in Sources */,
 				18A202FC1BE803E5006B9E1B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +251,7 @@
 				18A203011BE803E5006B9E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
